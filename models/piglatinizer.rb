@@ -1,11 +1,11 @@
 class PigLatinizer
   
-  def piglatinize(thing)
-    pig(thing)
+  def piglatinize(object)
+    pig(object)
   end
 
-  def to_pig_latin(string)
-    pig(string)
+  def to_pig_latin(phrase)
+    pig(phrase)
   end
   
   def pig(word)
