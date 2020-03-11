@@ -14,7 +14,7 @@ class PigLatinizer
     consonants = alpha - vowels
 
     showme = []
-    input = word.split(' ')
+    input = word.split(" ")
     input.each do |word|
       if word.length < 2
              showme << word + "way" 
