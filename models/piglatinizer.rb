@@ -3,4 +3,5 @@ class PigLatinizer
   
   
   
-  def piglatinize()
+  def piglatinize(object)
+    
