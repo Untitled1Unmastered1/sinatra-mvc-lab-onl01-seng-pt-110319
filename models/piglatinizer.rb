@@ -8,7 +8,7 @@ class PigLatinizer
   end 
   
   def piglatinize(phrase)
-    
+    p = 
   end 
   
   def piglatinize_word(word)
