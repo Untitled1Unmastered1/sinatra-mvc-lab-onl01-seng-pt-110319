@@ -10,7 +10,7 @@ class App < Sinatra::Base
     
     yall_trippin = PigLatinizer.new 
     
-    @piglatinized = PigLatinizer.new(params[:user_input])
+    @piglatinized = yall_trippin.pig(params[:user_input])
     erb :piglatinized 
   end 
 end
