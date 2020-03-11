@@ -10,7 +10,7 @@ class App < Sinatra::Base
 
     ring = PigLatinizer.new
     @string = ring.pig(params[:user_phrase])  
-    erb :piglatinize
+    erb :piglatinized
   end 
 
 end
