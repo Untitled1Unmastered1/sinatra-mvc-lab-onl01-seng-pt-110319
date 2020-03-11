@@ -8,7 +8,8 @@ class PigLatinizer
   end 
   
   def piglatinize(phrase)
-    p = phrase.split()
+    p = phrase.split(" ")
+    l = p
   end 
   
   def piglatinize_word(word)
