@@ -8,9 +8,9 @@ class App < Sinatra::Base
   
   post '/piglatinize' do 
     
-    yall_trippin = PigLatinizer.new 
+    crazy = PigLatinizer.new 
     
-    @piglatinized = yall_trippin.pig(params[:user_input])
+    @object = crazy.pig(params[:user_input])
     erb :piglatinized 
   end 
 end
